@@ -4,6 +4,7 @@ body {
     min-height: 200vh;
     font-family: Roboto, sans-serif;
 }
+/*header code*/
 .header {
     display:flex;
     flex-direction: column;
@@ -57,22 +58,7 @@ a {
     flex-grow: 1;
     flex-basis: 33px;
 }
-.midsection{
-
-    display: flex;
-    flex:2 1 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgreen;
-
-}
-.call-to-action{
-     flex:2 1 0;
-    justify-content: center;
-    align-items: center;
-    background-color: lightblue;
-}
+/* below nav code */
 .belownav{
     display:flex;
     flex:2 1 0;
@@ -85,37 +71,124 @@ a {
 
 }
 .belownav1{
-    display: flex;
+    
+    flex-direction: column;
+    
+    align-items: left;
+    
+    flex:1 1 0;
+    margin-left: 100px;
+      
    
-    justify-content: center ;
-    flex:1;
+}
+.belownav1 .titlep{
+    font-size: 48px;
+    color: #e5e7eb;
+    font-weight: 900;
+    margin-bottom: 0;
+    
+}
+.belownav1 p{
+     font-size: 18px;
+    color: #F9FAF8;
+    
+}
+.belownav1 button{
+     background-color: #3882F6;
+     color:white;
+     padding:10px;
+     
+    
+    
 }
 .belownav2{
     display: flex;
     justify-content: center ;
-    flex:1;
+    flex:1 1 0;
 
+}
+.belownav2 img{
+    width:auto;
+    height: auto;
 }
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cards{
+
+/*midsection code*/
+.midsection{
+
     display: flex;
+    flex:2 1 0;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10px;
+   
+
+}
+.midtitle{
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+
+}
+.cards{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:100px;
+  
+    flex:1;
+   
+    
+
     
 }
 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    padding:10px;
+   
+    border: 3px solid #3882F6;
     
     
-
+   
+    
+    
+    
+}
+img {
+  width: 100px;
+  height: 100px;
 }
 .message{
-    display:flex
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex:1;
+    background-color: #e5e7eb;
+    width:100%;
 }
+.message p{
+    width: 1000px;
+    font-size: 36px;
+    font-weight: 300px;
+}
+.call-to-action{
+     flex:2 1 0;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+
+
 .footer{
     display:flex;
     
