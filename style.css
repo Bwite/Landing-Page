@@ -1,7 +1,7 @@
 body {
     display:flex;
     flex-direction: column;
-    min-height: 200vh;
+    min-height: 250vh;
     font-family: Roboto, sans-serif;
 }
 /*header code*/
@@ -25,11 +25,15 @@ body {
     justify-content: left;
     padding:10px;
      color:white;
+     font-weight: 600;
+     font-size: 28px;
 }
 .nav2{
     display: flex;
     flex: 1;
     justify-content: right;
+     font-weight: 600;
+     font-size: 28px;
 }
 ul{
     margin:0;
@@ -155,13 +159,7 @@ a {
     border-radius: 15px;
     padding:10px;
    
-    border: 3px solid #3882F6;
-    
-    
-   
-    
-    
-    
+    border: 3px solid #3882F6;  
 }
 img {
   width: 100px;
@@ -182,10 +180,45 @@ img {
     font-weight: 300px;
 }
 .call-to-action{
-     flex:2 1 0;
+    flex:2 1 0;
+    display:flex;
+    
+}
+.blue-box{
+    display: flex;
+    gap:30px;
     justify-content: center;
     align-items: center;
-    background-color: lightblue;
+    background-color:#3882f6;
+    margin-top: 200px;
+    margin-bottom:200px;
+    flex: 2 1 0%;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right:100px;
+    border-radius: 15px;
+}
+.blue-box p{
+    display: flex;
+    font-size: 20px;
+    font-weight: 800;
+    color:white;
+   
+    
+}
+.blue-box button{
+    
+    padding:10px;
+    font-size: 20px;
+    font-weight: 800;
+    color:white;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 10px;
+ 
+   
+    
 }
 
 
